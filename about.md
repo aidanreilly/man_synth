@@ -9,6 +9,3 @@ My name is Aidan Reilly and I’m a technical writer living in Cork, Ireland. I 
 Many of the ideas described here are uncredited, this is simply because I kept quick notes on the ideas as i came across them, but not the names of those who suggested them. Where possible, I've tried to retrospectively find sources for the ideas. Please get in touch if you recognise an idea or would like to be credited. I will credit any new ideas that I post, but I have a rather large notebook of content to mine first. Bear with me.</p> 
 
 You can listen to some sounds of mine on [Soundcloud](http://soundcloud.com/oootini).
-
-This site is based on a Jekyll theme developed by [John Otander](http://johnotander.com)
-([@4lpine](https://twitter.com/4lpine)). Checkout the [Github repository](https://github.com/johnotander/pixyll).
