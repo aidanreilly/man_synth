@@ -5,6 +5,7 @@ date:       2016-12-20 23:21:29
 summary:    The Bouncing Ball patch
 categories: Envelope Modulation
 ---
+<img src="{{ site.baseurl }}/images/mod4.jpg" alt="mod" class="avatar" />
 
 content.
 
