@@ -3,8 +3,8 @@ title:       Manual Synthesis ~
 email:       oootini@yahoo.com
 author:      Aidan Reilly
 description: "A moleskin notebook for modular synthesis, one page at a time."
-baseurl:     "manual-synthesis.info"
-url:         ""
+baseurl:     ""
+url:         "manual-synthesis.info"
 date_format: "%-d %b, %Y"
 
 # Google services
@@ -33,7 +33,7 @@ fb_page_id:
 
 # Disqus post comments
 # (leave blank to disable Disqus)
-disqus_shortname:  @oootini
+disqus_shortname:  oootini
 
 # Facebook Comments plugin
 # (leave blank to disable Facebook Comments, otherwise set it to true)
