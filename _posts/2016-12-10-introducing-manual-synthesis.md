@@ -5,7 +5,7 @@ date:       2016-12-10 09:00:00
 summary:    Introducing Manual Synthesis
 categories: Random
 ---
-<img src="{{ site.baseurl }}/images/mod2.jpg" alt="mod" class="avatar" />
+<img src="{{ site.baseurl }}/images/mod6.jpg" alt="mod" class="avatar" />
 
 Welcome. This is a blog/notebook/website site about patch ideas for modular synthesizers. Occasionally I'll post images and sounds related to those ideas. Most (if not all) of the ideas posted here are culled from various internet blogs and forums, old synth manuals, venerated synthesis tomes, and/or any other scraps of html or pdf I can find.
 
