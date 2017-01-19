@@ -3,7 +3,7 @@ title:       Manual Synthesis ~
 email:       oootini@yahoo.com
 author:      Aidan Reilly
 description: "A moleskin notebook for modular synthesis, one page at a time."
-baseurl:     ""
+baseurl:     "manual-synthesis.info"
 url:         ""
 date_format: "%-d %b, %Y"
 
@@ -21,7 +21,7 @@ animated:             false
 show_related_posts:   false
 show_post_footers:    true
 show_social_icons:    false
-ajaxify_contact_form: false
+ajaxify_contact_form: true
 enable_mathjax: false
 extended_fonts: true
 enable_anchorjs: false
@@ -33,7 +33,7 @@ fb_page_id:
 
 # Disqus post comments
 # (leave blank to disable Disqus)
-disqus_shortname:
+disqus_shortname:  @oootini
 
 # Facebook Comments plugin
 # (leave blank to disable Facebook Comments, otherwise set it to true)
@@ -61,10 +61,10 @@ show_sharing_icons: false
 # Change to 'true' to enable individual icons
 share_facebook: true
 share_twitter: true
-share_googleplus: false
+share_googleplus: true
 share_linkedin: false
 share_digg: false
-share_tumblr: false
+share_tumblr: true
 share_reddit: true
 share_stumbleupon: false
 share_hackernews: false
@@ -91,8 +91,8 @@ text:
   index:
     coming_soon: 'Coming soon...'
   contact:
-    email:    'Your Email Address'
-    content:  'Speak your brain here!'
+    email:    'Your email address'
+    content:  'Speak your brains here!'
     subject:  'New submission!'
     submit:   'Send'
     ajax:
