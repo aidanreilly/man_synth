@@ -3,7 +3,6 @@ layout:     post
 title:      Spring thing
 date:       2016-12-28 15:12:00
 summary:    Spring thing
-categories: Spring Reverb
 ---
 <img src="{{ site.baseurl }}/images/mod3.jpg" alt="mod" class="avatar" />
 

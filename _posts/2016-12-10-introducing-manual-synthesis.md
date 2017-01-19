@@ -3,7 +3,6 @@ layout:     post
 title:      Introducing Manual Synthesis
 date:       2016-12-10 09:00:00
 summary:    Introducing Manual Synthesis
-categories: Random
 ---
 <img src="{{ site.baseurl }}/images/mod6.jpg" alt="mod" class="avatar" />
 
