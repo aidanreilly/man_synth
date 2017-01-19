@@ -1,5 +1,5 @@
 {% for page in site.pages %}
-    {% if page.tags contains "about" %}
+    {% if page.tags contains "search" %}
         <a href="{{ page.url }}">{{ page.title }}</a>
     {% endif %}
 {% endfor %}
@@ -11,7 +11,7 @@
 {% endfor %}
 
 {% for page in site.pages %}
-    {% if page.tags contains "search" %}
+    {% if page.tags contains "about" %}
         <a href="{{ page.url }}">{{ page.title }}</a>
     {% endif %}
 {% endfor %}
