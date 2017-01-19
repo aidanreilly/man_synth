@@ -4,7 +4,7 @@ email:       oootini@yahoo.com
 author:      Aidan Reilly
 description: "A moleskin notebook for modular synthesis, one page at a time."
 baseurl:     ""
-url:         ""
+url:         "http://manual-synthesis.info/"
 date_format: "%-d %b, %Y"
 
 # Google services
@@ -17,7 +17,7 @@ google_tag_manager:
 bing_verification:
 
 # Optional features
-animated:             false
+animated:             true
 show_related_posts:   false
 show_post_footers:    true
 show_social_icons:    false
