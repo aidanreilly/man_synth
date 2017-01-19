@@ -2,6 +2,7 @@
 layout:     post
 title:      Introducing Manual Synthesis
 summary:    Manual Synthesis is an occasional diary for patch ideas and modular synthesis techniques. 
+comments: true
 ---
 <img src="{{ site.baseurl }}/images/mod9.jpg" alt="mod" class="avatar" />
 
