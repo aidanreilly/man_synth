@@ -3,7 +3,7 @@ layout:     post
 title:      Introducing Manual Synthesis
 summary:    Manual Synthesis is an occasional diary for patch ideas and modular synthesis techniques. 
 ---
-<img src="{{ site.baseurl }}/images/mod6.jpg" alt="mod" />
+<img src="{{ site.baseurl }}/images/mod6.jpg" alt="mod" class="avatar"/>
 
 Welcome. This is a simple blog/notebook/website about patch ideas and compositional techniques for modular synthesizers. Occasionally I'll post images and sounds related to those ideas. Most (if not all) of the things posted here are culled from various internet blogs and forums, old synth manuals, venerated music and synthesis tomes, and/or any other scraps of paper, html, or pdf I can find. 
 
