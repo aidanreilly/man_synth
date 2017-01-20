@@ -2,6 +2,7 @@
 layout:     post
 title:      Spring thing
 summary:    Spring thing
+comments: true
 ---
 <img src="{{ site.baseurl }}/images/mod3.jpg" alt="mod" class="avatar" />
 

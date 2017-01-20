@@ -2,6 +2,7 @@
 layout:     post
 title:      Behold the Krell
 summary:    Behold the Krell
+comments: true
 ---
 <img src="{{ site.baseurl }}/images/mod1.jpg" alt="mod" class="avatar" />
 
