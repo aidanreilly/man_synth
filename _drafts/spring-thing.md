@@ -18,6 +18,13 @@ Some spring reverb modules have a feedback path built in. If yours doesn't, take
 
         Spring reverb output > mixer/VCA > bandpass filter  > spring reverb input 
 
+[//]: <> (https://knsv.github.io/mermaid/#styling-and-classes)
+<div class="mermaid">
+graph TD;
+A(Spring reverb output) --> B(Mixer/VCA)
+B(Mixer/VCA)-->C(bandpass filter)
+C(bandpass filter)-->E(spring reverb input)
+</div>
 <sup><i>Basic spring reverb FM modulation patch</i></sup>
 
 ## Add texture to an FM modulation
