@@ -6,9 +6,11 @@ comments: true
 ---
 <img src="{{ site.baseurl }}/images/mod3.jpg" alt="mod" class="avatar" />
 
-There is a lot more that you can do with a spring reverb than simply putting it on the other end of a VCO. Modular systems are made for experimentation and rethinking traditional signal paths. [^1] 
+There is a lot more that you can do with a spring reverb than simply putting it on the other end of a VCO. Modular systems are made for experimentation and rethinking traditional signal paths. These ideas and more were originally described in a muff-wiggler thread.[^1] 
 
-## Build a feedback path for the springs
+>With the right amount of careful control in the reverb feedback system, a stricken banshee's keen can be summoned that will curdle milk.
+
+## Build a feedback path for your springs
 
 Put a bandpass filter on the feedback path and modulate the filter cutoff with a slow moving LFO. Use attenuation or a vca to control the feedback. This technique can yield some fantastic otherworldly results. With the right amount of careful control in the feedback system, a stricken banshee's keen can be summoned that will curdle milk.
 
