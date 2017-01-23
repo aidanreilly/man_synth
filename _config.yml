@@ -28,8 +28,8 @@ enable_anchorjs: false
 
 # Facebook Page integration
 # (for instant articles and other stuff)
-fb_page: false
-fb_page_id: 
+fb_page: true
+fb_page_id: 1355875154476210
 
 # Disqus post comments
 # (leave blank to disable Disqus)
@@ -38,7 +38,7 @@ disqus_shortname:   http-manual-synthesis-info
 # Facebook Comments plugin
 # (leave blank to disable Facebook Comments, otherwise set it to true)
 facebook_comments:
-facebook_appid:
+facebook_appid: 1355875154476210
 facebook_comments_number: 10
 
 # Social icons
@@ -57,15 +57,15 @@ paypal_url:
 flattr_button:
 
 # Post sharing icons
-show_sharing_icons: false
+show_sharing_icons: true
 # Change to 'true' to enable individual icons
 share_facebook: true
 share_twitter: true
 share_googleplus: false
 share_linkedin: false
 share_digg: false
-share_tumblr: true
-share_reddit: true
+share_tumblr: false
+share_reddit: false
 share_stumbleupon: false
 share_hackernews: false
 
