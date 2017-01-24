@@ -69,7 +69,7 @@ A(Looping AD envelope)-->E(Blip VCA)
 E(Blip VCA)-->|Reverb input|D(Spring reverb)
 A(Looping AD envelope) -->|EOC trigger| B(Reverb AD envelope)
 B(Reverb AD envelope)-->|Mix control|D(Spring reverb)
-D(Spring reverb) -->|Reverb output| G(Main Out)
+D(Spring reverb) -->G(Main Out)
 </div>
 <sup><i>Swell reverb patch</i></sup>
 
