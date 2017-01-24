@@ -16,7 +16,7 @@ Spring reverb feedback is one of the most simultaneously chaotic and glorious so
 
 Put a bandpass filter on the feedback path and modulate the filter cutoff with a slow moving LFO. Use attenuation or a vca to control the feedback. This technique can yield some genuinely otherworldly and unsettling results. With the right amount of careful control in the feedback system, a stricken banshee's keen can be summoned that will curdle milk.
 
-Some spring reverb modules have a feedback path built in. If yours doesn't, take the spring reverb out through the bandpass filter and back into a mixer input. The mixer output then goes back into into the spring reverb input. You could also use a VCA here to control the feedback.
+Some spring reverb modules have a feedback path built in. If yours doesn't, take the spring reverb out through the bandpass filter and back into a mixer input. The mixer output then goes back into the spring reverb input. You could also use a VCA here to control the feedback.
 
 [//]: <> (https://knsv.github.io/mermaid/#styling-and-classes)
 <div class="mermaid">
