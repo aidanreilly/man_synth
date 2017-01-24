@@ -41,7 +41,7 @@ B(Spring reverb)-->C(Primary VCO FM input)
 </div>
 <sup><i>Basic spring reverb FM modulation patch</i></sup>
 
-## E.T wail home
+## E.T. wail home
 
 Feeding an LFO into a filter teetering on the edge of self-oscillation is fun. It's even more fun when you feed that filter into some springs. Each component of this patch will need some teaking to find the sweet spots.
 <div class="mermaid">
@@ -56,18 +56,18 @@ C(Spring reverb) -->G(Main Out)
 
 Hat tip to Tom Whitwell at [music-thing.co.uk](http://musicthing.co.uk/) for this one. You'll need a dual AD envelope with an end of cycle gate output on one side and an end of rise gate output on the other.
 
-  1. Set up one of the AD envelopes to loop and control a VCA that is clamping down on a sound source to create a string of short blips. Patch the blips into the spring reverb.
+  1. Set up one of the AD envelopes to control a VCA that is clamping down on a sound source to create a string of short blips. Patch the blips into the spring reverb.
   2. Trigger the other envelope with the end of rise gate. Make sure the second envelope is not set to loop.
-  3. Use the second envelope to control the mix amount between the wet and dry signal coming out  of the reverb. The second envelope controls the pseudo-reverse reverb. 
+  3. Use the second envelope to control the mix amount between the wet and dry signal coming out  of the reverb. Set the mix amount mostly dry to begin with. The second envelope controls the pseudo-reverse reverb. 
   5. Tweak the AD envelope and mix CV controls.
   6. Enjoy the swells.
 
 <div class="mermaid">
 graph TD;
 F(Sound source)-->E(Blip VCA)
-A(Looping AD envelope)-->E(Blip VCA)
+A(Blip AD envelope)-->E(Blip VCA)
 E(Blip VCA)-->|Reverb input|D(Spring reverb)
-A(Looping AD envelope) -->|EOC trigger| B(Reverb AD envelope)
+A(Blip AD envelope) -->|EOC trigger| B(Reverb AD envelope)
 B(Reverb AD envelope)-->|Mix control|D(Spring reverb)
 D(Spring reverb) -->G(Main Out)
 </div>
