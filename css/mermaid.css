@@ -18,7 +18,10 @@
   stroke-width: 1px;
 }
 .edgeLabel {
-  background-color: #e8e8e8;
+  background-color: #fafafa;
+  fill: #fafafa;
+  stroke: #7a7a7a;
+  stroke-width: 1px;
 }
 .cluster rect {
   fill: #ffffde !important;

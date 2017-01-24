@@ -6,7 +6,7 @@ comments: true
 ---
 <img src="{{ site.baseurl }}/images/mod3.jpg" alt="mod" class="avatar" />
 
-There is a lot more that you can do with a spring reverb than simply putting it on the other end of a VCO. Modular systems are made for experimentation and rethinking traditional signal paths. The following ideas and more were originally described in an illuminating muff-wiggler thread.[^1] 
+There is a lot more that you can do with a spring reverb than simply putting it on the other end of a VCO. Modular systems are made for experimentation and rethinking traditional signal paths. The following ideas and more were originally described in an illuminating muff-wiggler thread.[^1]  I have experience with two different spring reverb modules, the Doepfer A-199, and the Music Thing Spring Reverb. The ideas below are equally applicable to both.  
 
 >With the right amount of careful control in the reverb feedback system, a stricken banshee's keen can be summoned that will curdle milk.
 
@@ -28,7 +28,7 @@ A(Spring reverb output) --> E(Out)
 
 ## Add buzz to an FM modulation
 
-Here is a neat idea - put your FM oscillator through a spring reverb to add extra character to the modulation. It lends a really woody and grainy sound to the FM modulation. It works best with simple waveforms like sine waves. Some of the usual thing you can do with spring reverbs in the context of modular synthesis apply here too - experiment with adding filters and other signal modifers in series with the spring reverb in the VCO FM signal path. 
+Here is a neat idea - put your FM oscillator through a spring reverb to add extra character to the modulation. It lends a really grainy sound to the FM modulation. It works best with simple waveforms like sine waves. Some of the usual thing you can do with spring reverbs in the context of modular synthesis apply here too - experiment with adding filters and other signal modifers in series with the spring reverb in the VCO FM signal path. 
 
 This can also work with just a single VCO. Try patching an attenuated sine output from a VCO back to it's own FM input. Dialed in just right, it can yield a nitty-gritty flavour to the sound.
 <div class="mermaid">
@@ -40,7 +40,7 @@ B(Spring reverb)-->C(Primary VCO FM input)
 
 ## E.T wail home
 
-Feeding an LFO into a self oscillating filter is fun. It's even more fun when you feed that filter into some springs. 
+Feeding an LFO into a filter teetering on the edge of self-oscillation is fun. It's even more fun when you feed that filter into some springs. Each component of this patch will need some teaking to find the sweet spots.
 <div class="mermaid">
 graph TD;
 A(LFO) --> B(Self-oscillating bandpass filter)
@@ -60,10 +60,14 @@ Hat tip to Tom Whitwell at [music-thing.co.uk](http://musicthing.co.uk/) for thi
 
 <div class="mermaid">
 graph TD;
-A(Looping AD envelope EOC) --> B(AD envelope)
-B(AD envelope)-->C(Spring reverb mix control)
+A(Looping AD envelope) -->|EOC| B(Reverb AD envelope)
+B(Reverb AD envelope)-->|Mix control|D(Spring reverb)
+A(Looping AD envelope)-->E(Blip VCA)
+E(Blip VCA)-->D(Spring reverb)
+F(Sound source)-->E(Blip VCA)
 </div>
 <sup><i>Swell reverb patch</i></sup>
+
 
 ---
 
