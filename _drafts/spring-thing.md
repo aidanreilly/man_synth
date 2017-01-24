@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Spring things
-summary:  This post collects some ideas related to spring reverbs and how to use them in non-standard ways. 
+summary:  This post collects some ideas related to spring reverbs and how to use them in non-standard ways in your modular. 
 comments: true
 ---
 <img src="{{ site.baseurl }}/images/mod3.jpg" alt="mod" class="avatar" />
@@ -21,11 +21,12 @@ Some spring reverb modules have a feedback path built in. If yours doesn't, take
 graph TD;
 A(Spring reverb output) --> B(Mixer/VCA)
 B(Mixer/VCA)-->C(Bandpass filter)
-C(Bandpass filter)-->E(Spring reverb input)
+C(Bandpass filter)-->D(Spring reverb input)
+A(Spring reverb output) --> E(Out)
 </div>
 <sup><i>Basic spring reverb feedback patch</i></sup>
 
-## Add texture to an FM modulation
+## Add buzz to an FM modulation
 
 Here is a neat idea - put your FM oscillator through a spring reverb to add extra character to the modulation. It lends a really woody and grainy sound to the FM modulation. It works best with simple waveforms like sine waves. Some of the usual thing you can do with spring reverbs in the context of modular synthesis apply here too - experiment with adding filters and other signal modifers in series with the spring reverb in the VCO FM signal path. 
 
@@ -37,7 +38,7 @@ B(Spring reverb)-->C(Primary VCO FM input)
 </div>
 <sup><i>Basic spring reverb FM modulation patch</i></sup>
 
-## Create strange alien sirens and wails
+## E.T wail home
 
 Feeding an LFO into a self oscillating filter is fun. It's even more fun when you feed that filter into some springs. 
 <div class="mermaid">
@@ -47,15 +48,22 @@ B(Self-oscillating bandpass filter)-->C(Spring Reverb)
 </div>
 <sup><i>LFO into bandpass filter spring reverb patch</i></sup>
 
-## Spring modulate a pitch CV
+## Reverse swell reverb
 
-How does this sound?
+Hat tip to Tom Whitwell at [music-thing.co.uk](http://musicthing.co.uk/) for this one. You'll need a dual AD envelope with an end of cycle gate output on one side and an end of rise gate output on the other.
+
+  1. Set up one of the AD envelopes to loop and control a VCA to create a string of short blips. Patch the blips into the spring reverb.
+  2. Trigger the other envelope with the end of rise gate. Make sure the second envelope is not set to loop.
+  3. Use the second envelope to control the mix amount between the wet and dry signal coming out  of the reverb. The second envelope controls the pseudo-reverse reverb. 
+  5. Tweak the AD envelope and mix CV controls.
+  6. Enjoy the swells.
+
 <div class="mermaid">
 graph TD;
-A(Pitch CV) --> B(Spring reverb)
-B(Spring reverb)-->C(VCO 1V/Oct input)
+A(Looping AD envelope EOC) --> B(AD envelope)
+B(AD envelope)-->C(Spring reverb mix control)
 </div>
-<sup><i>Spring modulated 1V/oct patch</i></sup>
+<sup><i>Swell reverb patch</i></sup>
 
 ---
 
