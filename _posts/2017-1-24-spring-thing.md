@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Spring things
-summary:  This post collects some ideas related to spring reverbs and how to use them in non-standard ways in your modular. 
+summary:  Collects some ideas related to spring reverbs and how to use them in non-standard ways in your modular.
 comments: true
 ---
 <img src="{{ site.baseurl }}/images/mod3.jpg" alt="mod" class="avatar" />
