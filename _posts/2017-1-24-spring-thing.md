@@ -24,15 +24,15 @@ graph TD;
 A(Spring reverb) -->|Reverb output| E(Main Out)
 B(Mixer/VCA)-->C(Bandpass filter)
 C(Bandpass filter)-->|Reverb input|A(Spring reverb)
-A(Spring reverb) -->|Reverb output| B(Mixer/VCA)
+A(Spring reverb) -->|Reverb output|B(Mixer/VCA)
 </div>
 <sup><i>Basic spring reverb feedback patch</i></sup>
 
 ## Add a metallic flavour to an FM modulation
 
-Here is a neat idea - put your FM oscillator through a spring reverb to add extra character to the modulation. It lends a really grainy sound to the FM modulation. It works best with simple waveforms like sine waves. Some of the usual thing you can do with spring reverbs in the context of modular synthesis apply here too - experiment with adding filters and other signal modifers in series with the spring reverb in the VCO FM signal path. 
+Here is a neat idea - put your FM oscillator through a spring reverb to add extra character to the modulation. It lends a really grainy sound to the FM modulation. This works best with simple waveforms like sine waves. Some of the usual things you can do with spring reverbs in the context of modular synthesis apply here too - experiment with adding filters and other signal modifers in series with the spring reverb in the VCO FM signal path. 
 
-This can also work with just a single VCO. Try patching an attenuated sine output from a VCO back to it's own FM input. Dialed in just right, it can yield a nitty-gritty flavour to the sound.
+This can also work with a single self-patched VCO. Try patching an attenuated sine output from a VCO back to it's own FM input. Dialed in just right, it can yield a nitty-gritty flavour to the sound.
 
 <div class="mermaid">
 graph TD;
@@ -48,7 +48,7 @@ Feeding an LFO into a filter teetering on the edge of self-oscillation is fun. I
 graph TD;
 A(LFO) --> B(Self-oscillating bandpass filter)
 B(Self-oscillating bandpass filter)-->C(Spring Reverb)
-C(Spring reverb) -->|Reverb output| G(Main Out)
+C(Spring reverb) -->G(Main Out)
 </div>
 <sup><i>LFO into bandpass filter spring reverb patch</i></sup>
 
@@ -56,7 +56,7 @@ C(Spring reverb) -->|Reverb output| G(Main Out)
 
 Hat tip to Tom Whitwell at [music-thing.co.uk](http://musicthing.co.uk/) for this one. You'll need a dual AD envelope with an end of cycle gate output on one side and an end of rise gate output on the other.
 
-  1. Set up one of the AD envelopes to loop and control a VCA to create a string of short blips. Patch the blips into the spring reverb.
+  1. Set up one of the AD envelopes to loop and control a VCA that is clamping down on a sound source to create a string of short blips. Patch the blips into the spring reverb.
   2. Trigger the other envelope with the end of rise gate. Make sure the second envelope is not set to loop.
   3. Use the second envelope to control the mix amount between the wet and dry signal coming out  of the reverb. The second envelope controls the pseudo-reverse reverb. 
   5. Tweak the AD envelope and mix CV controls.
@@ -67,7 +67,7 @@ graph TD;
 F(Sound source)-->E(Blip VCA)
 A(Looping AD envelope)-->E(Blip VCA)
 E(Blip VCA)-->|Reverb input|D(Spring reverb)
-A(Looping AD envelope) -->|EOC| B(Reverb AD envelope)
+A(Looping AD envelope) -->|EOC trigger| B(Reverb AD envelope)
 B(Reverb AD envelope)-->|Mix control|D(Spring reverb)
 D(Spring reverb) -->|Reverb output| G(Main Out)
 </div>
