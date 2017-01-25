@@ -4,9 +4,11 @@ title:      Behold the Krell
 summary:    Behold the Krell
 comments: true
 ---
-<img src="{{ site.baseurl }}/images/mod1.jpg" alt="mod" class="avatar" />
+<img src="{{ site.baseurl }}/images/mod5.jpg" alt="mod" class="avatar" />
 
-The Krell patch is based on an idea articulated by Todd Barton. At the heart of it is a single monophonic synth sound controlled by a envelope that has the attack and fall part of simple attack-decay envelope modulated seperately. These rise and fall modulations can give amazing variations in tempo and dynamics depending on how modulation is applied.
+The Krell patch is based on an idea for the Buchla 200e articulated by Todd Barton[^1]. Krell captures the imagination. When it is emerges from the skronky murk, it is a phantasm, writhing and cavorting in the machine.  The challenge with Krell is to find a combination of settings and routings that brings out the soul in the machine. The basic idea is simple enough, but the details and subtle modulation are where it comes alive. 
+
+At the heart of it is a single monophonic synth sound controlled by an AD envelope with seperate modulations for the attack and fall portions the envelope. These rise and fall modulations can give amazing variations in tempo and dynamics depending on how modulation is applied.
 
 There are any number of variations of this patch and it can grow and be expanded upon to fit whatever size modular system you have at hand. For my purposes, I like to keep things as simple as possible.
 
@@ -14,20 +16,24 @@ The heart of Krell is a single looping envelope controlling a master output VCA.
 
 A module that provides some level of control over a random voltage is pretty essential for Krell. However, you can get pretty far with some sample and hold, slew, and noise/LFOs. At each point along the relatively simple path outlined above, you add as much or as little modulation as the patch needs.
 
-Add correlation between elements such as pitch, FM depth, filter frequency to really make this patch sing. For example, Use one related random voltage to select lower or higher pitches, while the other other slowly sweeps the filter frequency. Modulate the attack and decay parameters of the master envelope with cross patched  LFOs. Match pitch to envelope. [^1]
+Add correlation between elements such as pitch, FM depth, filter frequency to really make this patch sing. For example, Use one related random voltage to select lower or higher pitches, while the other other slowly sweeps the filter frequency. Modulate the attack and decay parameters of the master envelope with cross patched  LFOs. Match pitch to envelope.
 
-<blockquote>
-  <p>
-    Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
-  </p>
-  <footer><cite title="Antoine de Saint-Exupéry">Antoine de Saint-Exupéry</cite></footer>
-</blockquote>
+>When it is emerges from the skronky murk, it is a phantasm, writhing and cavorting in the machine.
 
-{% highlight markdown %}
-Master VCO out > Master VCA in
-Looping AD Envelope > Master VCA control
-{% endhighlight %}
+[//]: <> (https://knsv.github.io/mermaid/#styling-and-classes)
+<div class="mermaid">
+graph TD;
+A(Main envelope) -->B(Main VCA)
+I(VCO)-->B(Main VCA)
+J(Random 1V/oct)-->I(VCO)
+E(Attack modulation)-->A(Main envelope)
+F(Decay modulation)-->A(Main envelope)
+B(Main VCA)-->D(Bandpass filter)
+G(Filter modulation)-->D(Bandpass filter)
+D(Bandpass filter)-->H(Main out)
+</div>
+<sup><i>Simplifed Krell patch</i></sup>
 
 
 ---
-[^1]: Important information that may distract from the main text can go in footnotes.
+[^1]: [https://vimeo.com/48466272](https://vimeo.com/48466272)
