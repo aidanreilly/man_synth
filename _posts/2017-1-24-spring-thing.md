@@ -54,24 +54,23 @@ C(Spring reverb) -->G(Main Out)
 
 ## Reverse swell reverb
 
-Hat tip to Tom Whitwell at [music-thing.co.uk](http://musicthing.co.uk/) for this one. You'll need a dual AD envelope with an end of cycle gate output on one side and an end of rise gate output on the other.
+Hat tip to Tom Whitwell at [music-thing.co.uk](http://musicthing.co.uk/) for this one. You'll need 2 envelopes with an end of cycle (EOC) gate output on one of the envelopes.
 
-  1. Set up one of the AD envelopes to control a VCA that is clamping down on a sound source to create a string of short blips. Patch the blips into the spring reverb.
-  2. Trigger the other envelope with the end of rise gate. Make sure the second envelope is set to not loop.
-  3. Use the second envelope to control the mix amount between the wet and dry signal coming out  of the reverb. Set the mix amount mostly dry to begin with. The second envelope controls the pseudo-reverse reverb. 
-  5. Tweak the AD envelope and mix CV controls.
-  6. Enjoy the swells.
+  1. Set up one of the envelopes to control a VCA that is clamping down on a sound source to create a string of short blips. Patch the blips into the spring reverb.
+  2. Trigger the second envelope with the EOC gate from the first. Make sure the second envelope is set to not loop.
+  3. Use the second envelope to control the mix amount between the wet and dry signal coming out  of the reverb. Set the mix amount mostly dry to begin with. The second envelope controls the pseudo-reverse reverb swell. 
+  5. Tweak the envelopes and mix CV controls.
 
 <div class="mermaid">
 graph TD;
-F(Sound source)-->E(Blip VCA)
-A(Blip AD envelope)-->E(Blip VCA)
-E(Blip VCA)-->|Reverb input|D(Spring reverb)
-A(Blip AD envelope) -->|EOC trigger| B(Reverb AD envelope)
-B(Reverb AD envelope)-->|Mix control|D(Spring reverb)
+F(Sound source)-->E(VCA)
+A(VCA envelope)-->E(VCA)
+E(VCA)-->|Reverb input|D(Spring reverb)
+A(VCA envelope) -->|EOC trigger| B(Reverb envelope)
+B(Reverb envelope)-->|Mix control|D(Spring reverb)
 D(Spring reverb) -->G(Main Out)
 </div>
-<sup><i>Swell reverb patch</i></sup>
+<sup><i>Reverse swell reverb patch</i></sup>
 
 
 ---
