@@ -4,7 +4,7 @@ title:      Spring things
 summary:  Collects some ideas related to spring reverbs and how to use them in non-standard ways in your modular.
 comments: true
 ---
-<img src="{{ site.baseurl }}/images/mod3.jpg" alt="mod" class="avatar" />
+<img src="{{ site.baseurl }}/images/mod11.jpg" alt="mod" class="avatar" />
 
 There is a lot more that you can do with a spring reverb than simply putting it on the other end of a VCO. Modular systems are made for experimentation and rethinking traditional signal paths. The following ideas and more were originally described in an illuminating muff-wiggler thread.[^1]  I have experience with two different spring reverb modules, the Doepfer A-199, and the Music Thing Spring Reverb. The ideas below are equally applicable to both.  
 
