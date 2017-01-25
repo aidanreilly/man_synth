@@ -57,7 +57,7 @@ C(Spring reverb) -->G(Main Out)
 Hat tip to Tom Whitwell at [music-thing.co.uk](http://musicthing.co.uk/) for this one. You'll need a dual AD envelope with an end of cycle gate output on one side and an end of rise gate output on the other.
 
   1. Set up one of the AD envelopes to control a VCA that is clamping down on a sound source to create a string of short blips. Patch the blips into the spring reverb.
-  2. Trigger the other envelope with the end of rise gate. Make sure the second envelope is not set to loop.
+  2. Trigger the other envelope with the end of rise gate. Make sure the second envelope is set to not loop.
   3. Use the second envelope to control the mix amount between the wet and dry signal coming out  of the reverb. Set the mix amount mostly dry to begin with. The second envelope controls the pseudo-reverse reverb. 
   5. Tweak the AD envelope and mix CV controls.
   6. Enjoy the swells.
