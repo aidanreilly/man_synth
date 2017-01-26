@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Spring things
+title:      Spring Things
 summary:  Collects some ideas related to spring reverbs and how to use them in non-standard ways in your modular.
 comments: true
 ---
