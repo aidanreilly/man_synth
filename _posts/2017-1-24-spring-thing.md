@@ -43,7 +43,8 @@ B(Spring reverb)-->C(Primary VCO FM input)
 
 ## E.T. wail home
 
-Feeding an LFO into a filter teetering on the edge of self-oscillation is fun. It's even more fun when you feed that filter into some springs. Each component of this patch will need some tweaking to find the sweet spots.
+Feeding an LFO into a filter teetering on the edge of self-oscillation is fun. It's even more fun when you feed that filter into some springs. Each component of this patch will need some tweaking to find the sweet spots. Add additional modulation to taste.
+
 <div class="mermaid">
 graph TD;
 A(LFO) --> B(Self-oscillating bandpass filter)
