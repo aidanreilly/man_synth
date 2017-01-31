@@ -12,7 +12,7 @@ content.
 <div class="mermaid">
 graph TD;
 A(Master envelope) -->B(Main VCA)
-C(Sound source)-->D(Main VCA)
+C(Sound source)-->B(Main VCA)
 A(Main envelope) -->|EOC gate|J(Random 1V/oct)
 </div>
 <sup><i>Bouncing ball patch</i></sup>
