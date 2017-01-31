@@ -12,13 +12,13 @@ content.
 <div class="mermaid">
  %% Subgraph example
  graph TD
-         subgraph 
+         subgraph Sound
          A(Master envelope) -->B(Main VCA)
          end
-         subgraph 
+         subgraph Modulation
          C(Sound source)-->B(Main VCA)
          end
-         subgraph 
+         subgraph Pitch
          A(Main envelope) -->|EOC gate|J(Random 1V/oct)
          end
 </div>
