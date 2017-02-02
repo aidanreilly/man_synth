@@ -10,7 +10,6 @@ content.
 
 [//]: <> (https://knsv.github.io/mermaid/#styling-and-classes)
 <div class="mermaid">
- %% Subgraph example
  graph TB
          subgraph 
          A(Master envelope) -->B(Main VCA)
@@ -23,5 +22,4 @@ content.
          end
 </div>
 <sup><i>Frank's stochastic arp patch</i></sup>
-
 

@@ -10,10 +10,13 @@ content.
 
 [//]: <> (https://knsv.github.io/mermaid/#styling-and-classes)
 <div class="mermaid">
-graph TD;
-A(Master envelope) -->B(Main VCA)
-C(Modulation envelope)-->B(Modulation VCA)
-B(Modulation VCA)-->|Fall|A(Master envelope)
+ graph TB
+ D(Main out VCA)-->E(Main out)
+F(Trigger)-->A(Contour envelope)
+F(Trigger)-->C(Bounce envelope)
+A(Contour envelope) -->|VCA in|B(Mod VCA)
+B(Mod VCA)-->|Env fall modulation|C(Bounce envelope)
+C(Bounce envelope)-->|CV in|D(Main out VCA)
 </div>
 <sup><i>Bouncing ball patch</i></sup>
 
