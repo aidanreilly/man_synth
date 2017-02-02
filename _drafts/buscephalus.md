@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Bucephalus' Bouncing Ball
+title:      Bucephalus Bouncing Ball
 summary:    The bouncing ball patch is a great example of how modular synths are uniquely capable of great sound design. It is also the quintessential modulate the modulator patch.
 comments: true
 ---
@@ -12,8 +12,8 @@ content.
 <div class="mermaid">
 graph TD;
 A(Master envelope) -->B(Main VCA)
-C(Sound source)-->B(Main VCA)
-A(Main envelope) -->|EOC gate|J(Random 1V/oct)
+C(Modulation envelope)-->B(Modulation VCA)
+B(Modulation VCA)-->|Fall|A(Master envelope)
 </div>
 <sup><i>Bouncing ball patch</i></sup>
 
