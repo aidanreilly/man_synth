@@ -8,9 +8,7 @@ comments: true
 
 >Gravity and restitution acting against each other in a simulacrum of voltage and wire.
 
-Model real world physics with patch cables and electricity! No actual balls required. What you do need are two attack-decay (AD) envelopes with attack and decay modulation available. One envelope for the pervasive hand of gravity, one for the "ball" acting against. A pair of VCAs or LPGs are also required. The gravity/contour envelope should be long, slightly exponential. Controlling the response of the contour envelope allows you to shape the gravity portion of the system. Push the envelope more towards an exponential response and you're on Jupiter.  Acting against this gravity is the linear bounce or restitution of the ball. Extend the decay parameter of the bounce envelope to make the ball bounce into infinity. 
-
-ALSO NEED TO MODULATE THE FALL PARAM OF THE BOUNCE ENV? 
+Model real world physics with patch cables and electricity! No actual balls required. What you do need are two attack-decay (AD) envelopes with attack and decay modulation available. One envelope for the pervasive hand of gravity, one for the "ball" acting against. A pair of VCAs or LPGs are also required. The gravity/contour envelope should be long, slightly exponential. Controlling the response of the contour envelope allows you to shape the gravity portion of the system. Push the envelope more towards an exponential response and you're on Jupiter.  Acting against this gravity is the linear bounce or restitution of the ball. This should be a tight linear envelope. Extend the decay parameter of the bounce envelope to make the ball bounce into infinity. 
 
 Gravity and restitution acting against each other in a simulacrum of voltage and wire. Other modulations that you could apply at various points are not shown in the diagram below. Use your imagination! This patch is also described in the Make Noise Maths manual.[^1]  
 
@@ -18,12 +16,13 @@ Gravity and restitution acting against each other in a simulacrum of voltage and
 <div class="mermaid">
  graph TB
 F(Trigger)-->C(Looping bounce envelope)
+G(VCO out)-->|VCA/LPG in|D(Main out VCA)
 F(Trigger)-->A(Contour envelope)
-B(Mod VCA)-->|CV in|D(Main out VCA)
-A(Contour envelope) -->|CV in|B(Mod VCA)
-C(Looping bounce envelope)-->|VCA in|B(Mod VCA)
-G(VCO out)-->|VCA in|D(Main out VCA)
-D(Main out VCA)-->J(Main out)
+A(Contour envelope)-->|Decay/Fall modulation|C(Looping bounce envelope)
+B(Mod VCA/LPG)-->|CV in|D(Main out VCA/LPG)
+A(Contour envelope) -->|CV in|B(Mod VCA/LPG)
+C(Looping bounce envelope)-->|VCA/LPG in|B(Mod VCA/LPG)
+D(Main out VCA/LPG)-->J(Main out)
 </div>
 <sup><i>Bouncing ball patch</i></sup>
 
