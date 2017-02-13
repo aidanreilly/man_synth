@@ -6,13 +6,11 @@ comments: true
 ---
 <img src="{{ site.baseurl }}/images/mod12.jpg" alt="mod" class="avatar" />
 
->Gravity. Restitution. 
+>Gravity and restitution acting against each other in a simulacrum of voltage and wire.
 
-You'll need two envelopes with modulation available for attack and decay portions of the envelopes. One envelope for the pervasive hand of gravity, one for the "ball" acting against. The gravity/contour envelope should be long, slightly logarithmic. Controlling the response of the contour envelope allows you to shape the gravity portion of the system. Push the envelope towards exponential and you're on Jupiter. 
+Model real world physics with patch cables and electricity! No actual balls required. What you do need are two attack-decay (AD) envelopes with attack and decay modulation available. One envelope for the pervasive hand of gravity, one for the "ball" acting against. A pair of VCAs or LPGs is also required. The gravity/contour envelope should be long, slightly logarithmic. Controlling the response of the contour envelope allows you to shape the gravity portion of the system. Push the envelope towards exponential and you're on Jupiter.  Acting against this gravity is the bounce or restitution of the ball. Extend the decay parameter of the bounce envelope to make the ball bounce into infinity.  
 
-Acting against gravity is the bounce or restitution of the ball. Extend the decay parameter of the bounce envelope to make the ball bounce into infinity.  
-
-Gravity. Restitution. Acting against each other in a simulacrum of voltage and wire. Simple patch is diagram below. Other modulation that you could apply at various points not shown. Use your imagination. 
+Gravity and restitution acting against each other in a simulacrum of voltage and wire. Other modulations that you could apply at various points are not shown in the diagram below. Use your imagination! For more information, this patch is also described in the Make Noise maths manual.[^1]  
 
 [//]: <> (https://knsv.github.io/mermaid/#styling-and-classes)
 <div class="mermaid">
@@ -26,6 +24,8 @@ G(VCO out)-->|VCA in|D(Main out VCA)
 D(Main out VCA)-->J(Main out)
 </div>
 <sup><i>Bouncing ball patch</i></sup>
+
+[^1]:[http://www.makenoisemusic.com/content/manuals/MATHSmanual2013.pdf](http://www.makenoisemusic.com/content/manuals/MATHSmanual2013.pdf)
 
 
   
