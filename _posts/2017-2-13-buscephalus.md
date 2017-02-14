@@ -26,7 +26,7 @@ D(Main out VCA/LPG)-->J(Main out)
 </div>
 <sup><i>Bouncing ball patch</i></sup>
 
-Here is what the patch sounds like:
+Here is an example of what the patch can sound like:
 
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/307778865&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_artwork=false"></iframe>
 
