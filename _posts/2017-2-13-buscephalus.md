@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Bucephalus Bouncing Ball
-summary:    The bouncing ball patch is a great example of how to make your modular synth do things that are not easily done with fixed architecture synths. It is the quintessential modulate the modulator patch.
+summary:    The bouncing ball patch is a great example of how to make your modular synth do things that are not easily done with fixed architecture synths.
 comments: true
 ---
 <img src="{{ site.baseurl }}/images/mod12.jpg" alt="mod" class="avatar" />
