@@ -13,7 +13,7 @@ Tic      tic    tic   tic  tic tictictic. The bouncing ball patch is so much fun
 There you have it. Gravity and restitution acting against each other in a simulacrum of voltage and wire. Other modulations that you could apply at various points are not shown in the diagram below. Use your imagination! This patch is also described in the Make Noise Maths manual.[^1]  
 
 [//]: <> (https://knsv.github.io/mermaid/#styling-and-classes)
-<div class="mermaid">
+<div class="mermaid" align="center">
  graph TB
 F(Trigger)-->C(Looping bounce envelope)
 G(VCO out)-->|VCA/LPG in|D(Main out VCA)

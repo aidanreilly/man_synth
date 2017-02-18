@@ -19,7 +19,7 @@ Put a bandpass filter on the feedback path and modulate the filter cutoff with a
 Some spring reverb modules have a feedback path built in. If yours doesn't, take the spring reverb out through the bandpass filter and back into a mixer input. The mixer output then goes back into the spring reverb input. You could also use a VCA here to control the feedback.
 
 [//]: <> (https://knsv.github.io/mermaid/#styling-and-classes)
-<div class="mermaid">
+<div class="mermaid" align="center">
 graph TD;
 A(Spring reverb) -->|Reverb output| E(Main Out)
 B(Mixer/VCA)-->C(Bandpass filter)
