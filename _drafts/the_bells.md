@@ -4,11 +4,11 @@ title:      The bells
 summary:    The bells Esmerelda!
 comments: true
 ---
-<img src="{{ site.baseurl }}/images/mod5.jpg" alt="mod" class="avatar" />
+<img src="{{ site.baseurl }}/images/mod13.jpg" alt="mod" class="avatar" />
 
 #Rubicon bell III
 
-Classic Chowning FM patch to manipulate the Rubicon. Dixie as modulator with off-integer frequency ratio. Sines from both oscillators. The rubicon output passes into a uVCA with partially exponential response. Quadra for both envelopes (amplitude and dynamic FM index). The signal then passes into a linear VCA for velocity-dependent amplitude control and finally to the Audio Damage Dimensions module. Dimensions is modulated by two different slewed S&Hs which yield new voltages each time the Rubicon sounds. Some outboard reverb and DAW delay
+Classic Chowning FM patch to manipulate the Rubicon. Dixie as modulator with off-integer frequency ratio. Sines from both oscillators. The rubicon output passes into a uVCA with partially exponential response. Quadra for both envelopes (amplitude and dynamic FM index). The signal then passes into a linear VCA for velocity-dependent amplitude control. slewed S&Hs which yield new voltages each time the Rubicon sounds. Some outboard reverb and DAW delay
 
 Beautiful bell timbres with classic Chowning FM. Rubicon makes it easier with the onboard index VCA. Patch your modulator into TZFM as usual. Then you need 3 copies of your 1v/oct pitch melody. One each to Rubicon and modulator (hopefully a Dixie) and the other into the CV input of a linear VCA. Then patch an envelope which is similar to the amplitude envelope you're using (maybe a tad shorter) through the VCA which your pitch melody is opening and onward to the Rubicon index input. Some off-octave carrier-modulator ratios will get you the sweetest tones. Ever more so with symmetry closer and closer to noon.
 
