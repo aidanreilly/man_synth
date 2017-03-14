@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      The bells
+title:  The Bells
 summary:    The bells Esmerelda!
 comments: true
 ---
@@ -27,19 +27,12 @@ When it comes to bells, the Bell is a bingbingbing. The challenge with Bell is t
 [//]: <> (https://knsv.github.io/mermaid/#styling-and-classes)
 <div class="mermaid" align="center">
 graph TD;
-A(Main envelope) -->B(Main VCA)
-A(Main envelope) -->|EOC gate|J(Random 1V/oct)
-A(Main envelope) -->|EOC gate|K(Random FM modulation)
-I(VCO)-->B(Main VCA)
-J(Random 1V/oct)-->I(VCO)
-K(Random FM modulation)-->I(VCO)
-E(Random attack modulation)-->A(Main envelope)
-F(Random decay modulation)-->A(Main envelope)
-B(Main VCA)-->D(Bandpass filter)
-G(Random filter modulation)-->D(Bandpass filter)
-D(Bandpass filter)-->H(Main out)
+A(Main VCO) -->|Sine out|B(Main VCA)
+B(Main VCA)-->D(Main out)
+C(dynamic FM index)
+
 </div>
-<sup><i>Simplifed bEll patch</i></sup>
+<sup><i>FM bell patch</i></sup>
 
 
 ---
