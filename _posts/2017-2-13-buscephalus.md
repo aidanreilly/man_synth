@@ -8,7 +8,7 @@ comments: true
 
 >A simulacrum of voltage and wire.
 
-Tic      tic    tic   tic  tic tictictic. Real world physics with patch cables and electricity, and no actual balls required. The patch requires two attack-decay (AD) envelopes with attack and decay modulation available. One envelope for the pervasive hand of gravity, one for the "ball" acting against. A pair of VCAs or LPGs are also required. The gravity envelope should be long, slightly exponential. Controlling the response of the gravity envelope allows you to shape the gravity portion of the system. Extend the decay parameter to make the ball bounce into infinity. Acting against this gravity is the linear bounce or restitution of the ball. This should be a tight linear envelope.
+Real world physics with patch cables and electricity, and no actual balls required. The bouncing ball patch requires two attack-decay (AD) envelopes with attack and decay modulation available. One envelope for the pervasive hand of gravity, one for the "ball" acting against. A pair of VCAs or LPGs are also required. The gravity envelope should be long, slightly exponential. Controlling the response of the gravity envelope allows you to shape the gravity portion of the system. Extend the decay parameter to make the ball bounce into infinity. Acting against this gravity is the linear bounce or restitution of the ball. This should be a tight linear envelope.
 
 There you have it. Gravity and restitution acting against each other in a simulacrum of voltage and wire. Other modulations that you could apply at various points are not shown in the diagram below. Use your imagination! This patch is also described in the Make Noise Maths manual.[^1]  
 
