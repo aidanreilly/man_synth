@@ -10,5 +10,5 @@ Welcome. This is a simple blog/notebook/website about patch ideas and compositio
 
 The "manual" in the title is a reference to the linux "man" command to show the manual for a program at the command line. In terms of this site, think manual in the loosest possible sense of the word. This site collects patch ideas, strategies, inspiration - anything that can be applied to produce interesting sounds and structures on a modular synthesizer.
 
-I absolutely don't claim expertise in the realm of modular synthesis. I consider myself a commited amateur first and foremost. These notes and ideas are recorded for my own edification, as much as for yours. I hope you find them useful.
+I absolutely don't claim expertise in the realm of modular synthesis. I consider myself a committed amateur first and foremost. These notes and ideas are recorded for my own edification, as much as for yours. I hope you find them useful.
 
